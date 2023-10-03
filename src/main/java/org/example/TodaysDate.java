@@ -20,7 +20,6 @@ public class TodaysDate {
         System.out.println("Hora: " + this.hora);
         System.out.println("Fecha: " + this.day+ " " + this.month + " " + this.year + " ");
     }
-
     public static void main(String[] args) {
         TodaysDate today = new TodaysDate();
         today.imprimirFechayHora();
